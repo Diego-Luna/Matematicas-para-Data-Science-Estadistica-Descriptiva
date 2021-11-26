@@ -19,3 +19,7 @@ No solo existen esas 3 medidas de tendencias central, hay otras más poco conoci
 
 En otras palabras, la media armónica es una medida estadística recíproca a la media aritmética, que es la suma de un conjunto de valores entre el número de observaciones.
 Media geométrica: es una cantidad arbitraria de números (por decir n números) es la raíz n-ésima del producto de todos los números; es recomendada para datos de progresión geométrica, para promediar razones, interés compuesto y números índice.
+
+## Diagramas de dispersión en el análisis de datos
+
+[data viz project](https://datavizproject.com/)
