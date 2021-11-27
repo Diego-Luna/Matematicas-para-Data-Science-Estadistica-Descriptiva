@@ -52,6 +52,12 @@ Aquí μ y σ son los parámetros de la distribución, calculados empíricamente
   <img src="./imgs/img_3.png" width="1000" height="auto" alt="accessibility text">
 </p>
 
-## ¿Cuándo usarlos?
+### ¿Cuándo usarlos?
 Justo antes de aplicar el escalamiento lineal, las transformaciones no lineales solo son para que nuestros datos queden lineales para luego aplicar la normalización lineal. Siempre se debe aplicar la normalización lineal.
 
+## Procesamiento de datos numéricos en Python
+
+Links:
+* [6.3. Preprocessing data](https://scikit-learn.org/stable/modules/preprocessing.html)
+* [sklearn.datasets.load_diabetes](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)
+* [Map data to a normal distribution](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_map_data_to_normal.html)
