@@ -23,3 +23,35 @@ Media geométrica: es una cantidad arbitraria de números (por decir n números)
 ## Diagramas de dispersión en el análisis de datos
 
 [data viz project](https://datavizproject.com/)
+
+## Transformación no lineal
+¿Por qué usarlos?
+En el caso donde haya datos fuertemente sesgados y no simétricos.
+.
+
+### Algunos tipos:
+
+* **Logística**: los valores de la columna se transforman mediante la siguiente fórmula:
+
+<p align="center">
+  <img src="./imgs/img_1.png" width="1000" height="auto" alt="accessibility text">
+</p>
+
+* **LogNormal**: esta opción convierte todos los valores a una escala logarítmica normal. Los valores1 de la columna se transforman mediante la siguiente fórmula:
+
+<p align="center">
+  <img src="./imgs/img_2.png" width="1000" height="auto" alt="accessibility text">
+</p>
+
+Aquí μ y σ son los parámetros de la distribución, calculados empíricamente a partir de los datos como estimaciones de máxima verosimilitud, para cada columna por separado.
+
+
+* **TanH**: todos los valores se convierten a una tangente hiperbólica. Los valores de la columna se transforman mediante la siguiente fórmula:
+
+<p align="center">
+  <img src="./imgs/img_3.png" width="1000" height="auto" alt="accessibility text">
+</p>
+
+## ¿Cuándo usarlos?
+Justo antes de aplicar el escalamiento lineal, las transformaciones no lineales solo son para que nuestros datos queden lineales para luego aplicar la normalización lineal. Siempre se debe aplicar la normalización lineal.
+
