@@ -70,3 +70,9 @@ Cuando se tiene **variables categóricas** se hace un mapeo numérico. Para eso 
 * **One-hot** : es más extenso. Permite incluir categorías que no estaban en el dataset inicialmente. De forma que si se filtra una categoría que no estaba incluida, igual se pueda representar numéricamente y no de error en el modelo (este modelo es más cool y es el que se usa).
 
 Hay errores en la notación de Pandas y los tratan como que ambos modelos son lo mismo, pero en la realidad el Dummy no se usa. Aún así, en Pandas el método es .get_dummies().
+
+## Procesamiento para variables categóricas con Python
+
+Links:
+* [pandas.get_dummies](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html)
+* [Encoding categorical features](https://scikit-learn.org/stable/modules/preprocessing.html#encoding-categorical-features)
