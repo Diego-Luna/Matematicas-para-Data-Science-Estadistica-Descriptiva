@@ -76,3 +76,7 @@ Hay errores en la notación de Pandas y los tratan como que ambos modelos son lo
 Links:
 * [pandas.get_dummies](https://pandas.pydata.org/docs/reference/api/pandas.get_dummies.html)
 * [Encoding categorical features](https://scikit-learn.org/stable/modules/preprocessing.html#encoding-categorical-features)
+
+## Matriz de covarianza
+
+Una matriz de varianzas-covarianzas es una matriz cuadrada que contiene las varianzas y covarianzas asociadas con diferentes variables. Los elementos de la diagonal de la matriz contienen las varianzas de las variables, mientras que los elementos que se encuentran fuera de la diagonal contienen las covarianzas entre todos los pares posibles de variables.
